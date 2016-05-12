@@ -1,3 +1,5 @@
+#Minimalistic React-Webpack-BoilerPlate 
+
 This is a bare bones boiler plate using Webpack with React.
 
 This assumes you have webpack and webpack-dev-server installed globally.
@@ -5,6 +7,8 @@ This assumes you have webpack and webpack-dev-server installed globally.
 
 To install these use this command:
 
+
+```bash
 
 npm install -g webpack
 
@@ -14,6 +18,11 @@ if you get this error:
 
 Error: EACCES: permission denied, access '/usr/local/lib/node_modules'...please run as root/admin
 
+use:
 
-add sudo to the front.
+sudo npm install -g webpack
+
+sudo npm install -g webpack-dev-server
+
+```
 
